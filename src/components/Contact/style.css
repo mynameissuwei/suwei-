@@ -1,0 +1,21 @@
+.Contact p {
+  font-size: 18px;
+}
+.Contact span{
+  margin:0px 20px;
+}
+.red {
+  color:red;
+}
+.blue {
+  color:blue;
+}
+.yellow {
+  color:yellow;
+}
+.pink {
+  color:pink;
+}
+.Contact h1{
+  margin-bottom: 80px;
+}

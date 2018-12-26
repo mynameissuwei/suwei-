@@ -1,68 +1,83 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 个人资料
 
-## Available Scripts
+* 姓名：苏伟
+* 性别：男
 
-In the project directory, you can run:
+## 项目经验
+* [LeetCode 205 题](https://leetcode.com/suweiok/)
+* [实现了 90% Lodash 函数](https://github.com/mynameissuwei/suwei-lodash/blob/master/suwei-lodash.js)
+* [React Router + Redux + Express + Mongodb 开发的高颜值实时聊天招聘APP](http://suwei.life:8090/)
+* [纯正商业级应用-微信小程序](https://github.com/mynameissuwei/life-miniProgram)(打开微信小程序搜索suwei即可查询)
 
-### `npm start`
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## 技能树
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+* HTML/CSS
 
-### `npm test`
+  * 通读《CSS 权威指南》 
+  * 熟练掌握盒模型、行内、块级格式化，能够使用 float、flex 实现常见布局  
+  * 熟练掌握 CSS3 的渐变、动画、2D/3D 变幻等新特性 
+  * 熟悉 Less/Sass，熟悉 Bootstrap，理解其原理 
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* JS 
 
-### `npm run build`
+  * 通读《Eloquent JavaScript》
+  * 熟悉原生 JavaScript，理解原型、闭包、高阶、异步等概念 
+  * 熟悉 ES6 的新特性，包括但不限于新的语法糖、类与对象、Generator、Promise、await/async 等 
+  * 熟悉 DOM、BOM 原生 API，熟悉 jQuery API 
+  * 了解 Node.js，了解 Express，了解其中间件机制，能够搭建简单的网站 
+  * 熟悉 Vue 的使用，了解 Vue 的部分原理，了解 Vue-Router 和 Vuex 
+  * 熟悉 React 使用，了解 React 部分原理，了解 React-Router 和 Redux 
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+* 前端工程化
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+  * 熟练使用 DevTools 进行开发和调试 
+  * 了解 Webpack 的原理，了解前端工程化工具 
+  * 了解前端性能优化 
+  * 具备基本的 Web 安全知识（SQL 注入 / XSS / CSRF / CSP 等） 
+  * 能够使用 Git 进行版本控制 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+* 计算机基础
 
-### `npm run eject`
+  *	熟悉常用的数据结构与算法(链表，树，堆，DP等)
+  *	了解计算机网络的基本原理 
+  *	熟悉 HTTP 协议的机制、常见首部及缓存方式 
+  *	熟悉基础的编码知识如 Base64、UTF-8 的表示等 
+  *	了解数据库及 SQL 语言的使用，理解数据库系统的基本概念 
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+* 英语
+  
+  * 大学英语6级(CET-6)
+  * 熟练阅读英语相关技术文档
+  * 口语能力出色, 和外国人熟练沟通无压力
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 我的书单
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+* 《CSS 权威指南》
+* 《The Book Of CSS3》
+* 《CSS 揭秘》
+* 《DOM 编程艺术》
+* 《Eloquent JavaScript》
+* 《Javascript 高级程序设计》
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## 自我评价
 
-## Learn More
+* 热爱互联网，喜欢新潮科技，对一切事物拥有强烈的好奇心 
+* 有良好的编码习惯，持续关注前端领域的新技术 
+* 热爱运动, 性格乐观开朗
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 工作经历
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+* A.P.穆勒-马士基集团(2017.9-2018.5)
+  * Deck Cadet
+  * 职责 1、负责甲板，驾驶台的维护
+  2、修复设备上问题
+  3、完成上级领导安排的其他任务
 
-### Code Splitting
+* 杭州大喵科技有限公司(2018.6-2018.11)
+  * 前端开发工程师 
+  * 职责：1、负责编码，个人功能模块的测试
+  2、修复程序BUG
+  3、完成上级领导安排的其他任务
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
 
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify

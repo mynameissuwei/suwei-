@@ -1,0 +1,54 @@
+.ProjectWrapper {
+  display: flex;
+  justify-content: center;
+}
+.Wrapper {
+  width:276px;
+  height: 400px;
+  background: linear-gradient(180deg,#fff,#f0f0f0);
+  border-radius: 6px;
+  box-shadow: 0 5px 10px rgba(0,0,0,.1);
+  border: 1px solid hsla(0,0%,100%,.3);
+  margin:0px 10px;
+}
+.ProjectWrapper .pic {
+  margin-top: 10px;
+  width:254px;
+  height: 150px;
+}
+.tool img {
+  width:18px;
+  height:18px;  
+}
+a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.title {
+  line-height: 80px;
+  text-align: center;
+  color: hsla(0,0%,100%,.9);
+  text-shadow: 0 0 6px rgba(0,0,0,.2);
+}
+.tool {
+  display: flex;
+  margin:0px auto;
+  align-items: center;
+}
+.link {
+  width: 200px;
+  height: 30px;
+  border: 1px solid #E6E6E6;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.ProjectWrapper p {
+  margin-top: 6px;
+  font-size: 16px;
+  line-height: 28px;
+  text-indent: 2em;
+  text-align: justify;
+  padding-left: 10px;
+  padding-right: 10px;
+}

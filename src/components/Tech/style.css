@@ -1,0 +1,26 @@
+.pageBody {
+  width: 50%;
+  max-width: 1300px;
+  height: 80%;
+  margin:0px auto;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.pageBody img {
+  max-height: 80px;
+  max-width: 150px;
+}
+.pageBody h1 {
+  font-size: 40px;
+  color:white;
+}
+.content {
+  display: flex;
+  justify-content: center;
+}
+.pageBody p {
+  color:white;
+}

@@ -1,0 +1,10 @@
+.Avator img {
+  width:200px;
+  height:200px;
+  border-radius: 50%;
+}
+
+.AvatorCenter {
+  margin-top: 40px;
+  font-size: 20px;
+}
