@@ -21,6 +21,7 @@
   "eslintConfig": {
     "extends": "react-app"
   },
+  "proxy": "https://rpj.bembi.org/",
   "browserslist": [
     ">0.2%",
     "not dead",

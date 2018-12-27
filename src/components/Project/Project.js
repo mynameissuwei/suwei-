@@ -7,7 +7,75 @@ import Lodash from '../../static/Lodash.jpg'
 import Github from '../../static/github.png'
 import Link from '../../static/w_link.svg'
 
+import Particles from 'react-particles-js';
+
 import './style.css'
+
+const ParticlesContainer = (props) => (
+  <Particles
+    style={{
+      position: "absolute",
+      left: 0,
+      right: 0,
+      bottom: 0,
+      top: 0
+    }}
+      params={{
+        "particles": {
+            "number": {
+                "value": 8,
+                "density": {
+                    "enable": true,
+                    "value_area": 800
+                }
+            },
+            "line_linked": {
+                "enable": false
+            },
+            "move": {
+                "speed": 1,
+                "out_mode": "out"
+            },
+            "shape": {
+                "type": [
+                    "images",
+                    "circle"
+                ],
+                "images": [
+                    {
+                        "src": "code.b3b4c4f4.png",
+                        "height": 20,
+                        "width": 23
+                    },
+                    {
+                        "src": "k8s.2d579d24.svg",
+                        "height": 20,
+                        "width": 20
+                    },
+                    {
+                        "src": "react.cd2ab268.svg",
+                        "height": 20,
+                        "width": 20
+                    }
+                ]
+            },
+            "color": {
+                "value": "#CCC"
+            },
+            "size": {
+                "value": 30,
+                "random": false,
+                "anim": {
+                    "enable": true,
+                    "speed": 4,
+                    "size_min": 10,
+                    "sync": false
+                }
+            }
+        },
+        "retina_detect": false
+    }} />
+)
 
 class Project extends React.Component {
   render() {
@@ -62,6 +130,7 @@ class Project extends React.Component {
             </div>
           </div>
         </div>
+        <ParticlesContainer></ParticlesContainer>
       </div>
     )
   }

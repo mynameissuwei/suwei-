@@ -78,7 +78,7 @@ class Tech extends React.Component {
 ] 
 
     return (
-      <div className="section">
+      <div className="section tech">
         <h1>技能栈</h1>
         <div className='pageBody'>
           {data.map((item,index) => 

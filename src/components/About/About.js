@@ -8,7 +8,7 @@ import Particles from 'react-particles-js';
 
 import './styles.css'
 
-
+  
 
 const ParticlesContainer = (props) => (
   <Particles

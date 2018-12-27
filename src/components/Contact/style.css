@@ -4,18 +4,55 @@
 .Contact span{
   margin:0px 20px;
 }
+.Contact h1 {
+  color: white;
+}
+.Contact p {
+  color: white;
+}
 .red {
   color:red;
+  position: relative;
+  right: 160px;
 }
 .blue {
   color:blue;
+  position: relative;
+  right: 160px;
 }
 .yellow {
   color:yellow;
+  position: relative;
+  left: 160px;
 }
 .pink {
   color:pink;
+  position: relative;
+  left: 160px;
 }
 .Contact h1{
-  margin-bottom: 80px;
+  position: relative;
+  bottom: 140px;
+}
+.first {
+  position: relative;
+  right: 350px;
+}
+.third {
+  position: relative;
+  right: 250px;
+}
+.second {
+  position: relative;
+  left: 350px;
+  bottom: 35px;
+}
+.fourth {
+  position: relative;
+  left: 250px;
+  bottom: 35px;
+}
+.fifth {
+  position: relative;
+  top:120px;
 }

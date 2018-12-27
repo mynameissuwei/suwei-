@@ -40,7 +40,7 @@ const ParticlesContainer = (props) => (
 	            "anim": {
 	                "enable": true,
 	                "speed": 1,
-	                "opacity_min": 0.07
+	                "opacity_min": 0.0
 	            }
 	        }
 	    },
@@ -101,7 +101,7 @@ class ControlledCarousel extends React.Component {
             <Carousel.Caption>
               <h4>杭州大喵科技有限公司</h4>
               <p>
-                2017.10 -2017.11
+                2017.10 -2018.9
                 （前端工程师）
               </p>
               <p>	
