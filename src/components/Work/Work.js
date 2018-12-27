@@ -34,12 +34,12 @@ const ParticlesContainer = (props) => (
 	            "speed": 0.05
 	        },
 	        "size": {
-	            "value": 1
+	            "value": 2
 	        },
 	        "opacity": {
 	            "anim": {
 	                "enable": true,
-	                "speed": 1,
+	                "speed": 7,
 	                "opacity_min": 0.0
 	            }
 	        }

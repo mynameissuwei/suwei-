@@ -33,7 +33,7 @@ const ParticlesContainer = (props) => (
                 "enable": false
             },
             "move": {
-                "speed": 1,
+                "speed": 6,
                 "out_mode": "out"
             },
             "shape": {

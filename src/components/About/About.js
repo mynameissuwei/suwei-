@@ -11,37 +11,32 @@ import './styles.css'
   
 
 const ParticlesContainer = (props) => (
-  <Particles
-  style={{
-    position: "absolute",
-    left: 0,
-    right: 0,
-    bottom: 0,
-    top: 0
-  }}
-  params={{
-    particles: {
-      number: {
-        value: 70,
-        density: {
-          enable: false,
-          value_area: 2000
-        }
-      },
-      color: {
-        value: "#BB0000"
-      },
-      move: {
-        speed: 1
-      },
-      line_linked: {
-        enable: true,
-        opacity: 1,
-        color: "#FFFAF0"
-      }
-    }
-  }}
-/>
+<Particles
+    style={{
+      position: "absolute",
+      left: 0,
+      right: 0,
+      bottom: 0,
+      top: 0
+    }}
+    params={{
+	    "particles": {
+	        "number": {
+	            "value": 60
+	        },
+	        "size": {
+	            "value": 3
+	        }
+	    },
+	    "interactivity": {
+	        "events": {
+	            "onhover": {
+	                "enable": true,
+	                "mode": "repulse"
+	            }
+	        }
+	    }
+	}} />
 );
 
 
