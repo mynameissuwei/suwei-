@@ -2,8 +2,54 @@ import React from 'react'
 import { Card } from './styles'
 import Logo from '../../static/logo.svg'
 import Vue from '../../static/Vue.png'
+import Particles from 'react-particles-js';
 
 import './style.css'
+
+const ParticlesContainer = (props) => (
+<Particles
+  style={{
+    position: "absolute",
+    left: 0,
+    right: 0,
+    bottom: 0,
+    top: 0
+  }}
+  params={{
+    "particles": {
+        "number": {
+            "value": 160,
+            "density": {
+                "enable": false
+            }
+        },
+        "size": {
+            "value": 10,
+            "random": true
+        },
+        "move": {
+            "direction": "bottom",
+            "out_mode": "out"
+        },
+        "line_linked": {
+            "enable": false
+        }
+    },
+    "interactivity": {
+        "events": {
+            "onclick": {
+                "enable": true,
+                "mode": "remove"
+            }
+        },
+        "modes": {
+            "remove": {
+                "particles_nb": 10
+            }
+        }
+    }
+	}} />
+);
 
 class Tech extends React.Component {
   render() {
@@ -41,6 +87,7 @@ class Tech extends React.Component {
             </Card>
           )}
         </div>
+        <ParticlesContainer></ParticlesContainer>
       </div>
     );
   }

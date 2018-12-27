@@ -1,0 +1,15 @@
+.about img{
+  width: 200px;
+  height: 170px;
+  padding: 30px 30px;
+}
+.about .ex {
+  margin-top: 50px;
+  color: white;
+}
+.about {
+  background-color: #109085;
+}
+.about h1 {
+  color:white;
+}

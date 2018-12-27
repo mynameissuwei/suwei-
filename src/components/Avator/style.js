@@ -6,7 +6,7 @@ export const Wrapper = styled.section`
 
 export const BottomLine = styled.div`
 	margin:0 auto;
-	border:1px solid white;
+	border:1px solid black;
 	width:70%;
 `
 

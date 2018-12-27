@@ -1,7 +1,12 @@
-img {
-  width:200px;
-  height:200px;
+.work img {
+  width:300px;
+  height:300px;
 }
-.section {
-  background-color: black;
+.work h1 {
+  position: relative;
+  top: 70px;
+  color: white;
+}
+.fp-slides {
+  top: -60px;
 }

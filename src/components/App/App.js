@@ -8,6 +8,7 @@ import Project from '../Project/Project'
 import "fullpage.js/vendors/scrolloverflow"; // Optional. When using scrollOverflow:true
 import ReactFullpage from "@fullpage/react-fullpage";
 
+
 import "./styles.css";
 
 class MySection extends React.Component {
@@ -27,7 +28,7 @@ const App = () => (
     anchors={anchors}
     navigation
     navigationTooltips={anchors}
-    sectionsColor={["#282c34", "#ff5f45", "#0798ec","#945c4c","#4b85a0","#a29971"]}
+    sectionsColor={["#282c34", "#109085", "#0798ec","#3d3b4f","#4b85a0","#a29971"]}
     onLeave={(origin, destination, direction) => {
       console.log("onLeave event", { origin, destination, direction });
     }}
