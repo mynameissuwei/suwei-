@@ -80,7 +80,7 @@ const ParticlesContainer = (props) => (
 class Project extends React.Component {
   render() {
     return(
-      <div className="section">
+      <div className="section project">
         <h1 className='title'>项目经历</h1>
         <div className='ProjectWrapper'>
           <div className='Wrapper'>
@@ -88,10 +88,10 @@ class Project extends React.Component {
             <p>一个类似BOSS直聘的求职网站,2种身份转换BOSS和牛人,可在线聊天。前端使用 React 开发，
               后端使用 Express 和 Mongodb 搭建，用户首次访问即把cookie保存在网站中。</p>
             <div className='tool'>
-              <a href="/" className='link'>
+              <a href="suwei.life:8090" className='link'>
                 <img src={Link} alt=""></img>
               </a>
-              <a href='/' className='link'>
+              <a href='https://github.com/mynameissuwei/work' className='link'>
                 <img src={Github} alt=""/>
               </a>
             </div>
@@ -102,7 +102,7 @@ class Project extends React.Component {
             和电影的微信小程序,用户可搜索喜欢的书籍和电影,前端使用微信小程序技术开发,
             后端则通过网络上的API请求返回去数据。(搜索suwei即可查询)</p>
             <div className='tool'>
-              <a href='/' className='link'>
+              <a href='https://github.com/mynameissuwei/life-miniProgram' className='link'>
                 <img src={Github} alt=""/>
               </a>
             </div>
@@ -113,7 +113,7 @@ class Project extends React.Component {
               我通过刷Leetcode来进行训练,目前已经通过197题,通过刷Leetcode让我对后端数据
               的处理得到了提升，我的编程思维也日渐逻辑化.</p>
             <div className='tool'>
-              <a href='/' className='link'>
+              <a href='https://leetcode.com/suweiok/' className='link'>
                 <img src={Link} alt=""/>
               </a>
             </div>
@@ -124,13 +124,12 @@ class Project extends React.Component {
               为了更好掌握这个库，提升JS基础知识,自己手动实现了90% Lodash函数,
               源码可在GitHub上查询和获取.</p>
             <div className='tool'>
-              <a href='/' className='link'>
+              <a href='https://github.com/mynameissuwei/suwei-lodash' className='link'>
                 <img src={Github} alt=""/>
               </a>
             </div>
           </div>
         </div>
-        <ParticlesContainer></ParticlesContainer>
       </div>
     )
   }
