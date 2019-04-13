@@ -87,7 +87,7 @@ class Tech extends React.Component {
             </Card>
           )}
         </div>
-        <ParticlesContainer></ParticlesContainer>
+        {/* <ParticlesContainer></ParticlesContainer> */}
       </div>
     );
   }

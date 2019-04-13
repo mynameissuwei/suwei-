@@ -1,5 +1,5 @@
 import React from 'react'
-import Carousel from 'react-bootstrap/lib/Carousel';
+import Carousel from 'react-bootstrap/Carousel'
 import banner from './banner.jpg'
 import back from './08.jpg'
 import pack from './02.jpg'
@@ -99,16 +99,15 @@ class ControlledCarousel extends React.Component {
               alt="Third slide"
             />
             <Carousel.Caption>
-              <h4>杭州大喵科技有限公司</h4>
+              <h4>浙江坚果智慧</h4>
               <p>
-                2017.10 -2018.9
+                2019年1月 ~ 2019年4月
                 （前端工程师）
               </p>
               <p>	
                 <li>负责快速构建高质量移动APP/PC/微信页面</li>
                 <li>根据业务需求设计合适的工程项目</li>   
                 <li>高度组件化、模块化思维，拥有各平台调试能力</li>
-                <li>同期学习ES6及vue,react,体会函数式编程思想</li>  
               </p>
             </Carousel.Caption>
           </Carousel.Item>
@@ -119,15 +118,14 @@ class ControlledCarousel extends React.Component {
               alt="First slide"
             />
             <Carousel.Caption>
-              <h4>A.P.穆勒-马士基集团(Maersk)</h4>
+              <h4>杭州大喵科技有限公司</h4>
               <p>
-              2017.1 -2017.9
-              （DeckCadet）
+              2017年9月 ~ 2018年11月
               </p>
               <p>
-                <li>Prepare for Departure</li>
-                <li>Assist in Navigation Tasks</li>
-                <li>Keep Records</li>
+                <li>负责该公司react-PC端项目的开发</li>
+                <li>用webpack定制符合公司项目的脚手架</li>
+                <li>熟练运用函数式的编程思想开发业务组件</li>
               </p>
             </Carousel.Caption>
           </Carousel.Item>
