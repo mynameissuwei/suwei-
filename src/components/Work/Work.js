@@ -93,11 +93,11 @@ class ControlledCarousel extends React.Component {
           onSelect={this.handleSelect}
         >
           <Carousel.Item>
-            <img
+            {/* <img
               className="d-block w-100"
               src={back}
               alt="Third slide"
-            />
+            /> */}
             <Carousel.Caption>
               <h4>浙江坚果智慧</h4>
               <p>

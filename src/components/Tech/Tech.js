@@ -78,7 +78,7 @@ class Tech extends React.Component {
 ] 
 
     return (
-      <div className="section tech">
+      <div className="tech">
         <h1>技能栈</h1>
         <div className='pageBody'>
           {data.map((item,index) => 
@@ -87,7 +87,7 @@ class Tech extends React.Component {
             </Card>
           )}
         </div>
-        {/* <ParticlesContainer></ParticlesContainer> */}
+        <ParticlesContainer></ParticlesContainer>
       </div>
     );
   }
