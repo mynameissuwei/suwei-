@@ -47,16 +47,16 @@ const ParticlesContainer = (props) => (
                         "height": 20,
                         "width": 23
                     },
-                    {
-                        "src": "k8s.2d579d24.svg",
-                        "height": 20,
-                        "width": 20
-                    },
-                    {
-                        "src": "react.cd2ab268.svg",
-                        "height": 20,
-                        "width": 20
-                    }
+                    // {
+                    //     "src": "k8s.2d579d24.svg",
+                    //     "height": 20,
+                    //     "width": 20
+                    // },
+                    // {
+                    //     "src": "react.cd2ab268.svg",
+                    //     "height": 20,
+                    //     "width": 20
+                    // }
                 ]
             },
             "color": {
@@ -130,6 +130,7 @@ class Project extends React.Component {
             </div>
           </div>
         </div>
+        {/* <ParticlesContainer /> */}
       </div>
     )
   }
