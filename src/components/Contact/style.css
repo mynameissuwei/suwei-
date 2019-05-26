@@ -1,14 +1,22 @@
 .Contact p {
   font-size: 18px;
+  font-family: 'Squada One', cursive;
+
 }
 .Contact span{
   margin:0px 20px;
+  font-family: 'Squada One', cursive;
+
 }
 .Contact h1 {
   color: white;
+  font-family: 'Squada One', cursive;
+
 }
 .Contact p {
   color: white;
+  font-family: 'Squada One', cursive;
+
 }
 .red {
   color:red;

@@ -11,15 +11,6 @@ import ReactFullpage from "@fullpage/react-fullpage";
 
 import "./App.css";
 
-class MySection extends React.Component {
-  render() {
-    return (
-      <div className="section">
-        <h3>{this.props.content}</h3>
-      </div>
-    );
-  }
-}
 
 const anchors = ["firstPage", "secondPage", "thirdPage","fourthPage","fifthPage","sixthPage"];
 

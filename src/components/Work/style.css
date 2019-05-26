@@ -1,12 +1,10 @@
-.work img {
-  width:300px;
-  height:300px;
-}
-.work h1 {
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+
+/* .work h1 {
   position: relative;
-  top: 70px;
   color: white;
-}
-.fp-slides {
-  top: -60px;
+} */
+.work li {
+  margin-top: 10px;
 }

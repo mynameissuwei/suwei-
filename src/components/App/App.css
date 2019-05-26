@@ -1,3 +1,4 @@
+
 .firstPage {
 	width: 100wh;
 	height: 90vh;
@@ -7,6 +8,8 @@
 	-webkit-animation: Gradient 15s ease infinite;
 	-moz-animation: Gradient 15s ease infinite;
 	animation: Gradient 15s ease infinite;
+	font-family: 'Squada One', cursive;
+	font-size: 20px;
 }
 .secondPage {
   width: 100wh;
@@ -17,6 +20,8 @@
 	-webkit-animation: Gradient 15s ease infinite;
 	-moz-animation: Gradient 15s ease infinite;
 	animation: Gradient 15s ease infinite;
+	font-family: 'Squada One', cursive;
+	font-size: 20px;
 }
 .thirdPage {
   width: 100wh;
@@ -27,22 +32,38 @@
 	-webkit-animation: Gradient 15s ease infinite;
 	-moz-animation: Gradient 15s ease infinite;
 	animation: Gradient 15s ease infinite;
+	font-family: 'Squada One', cursive;
+	font-size: 20px;
+}
+.fourthPage {
+	width: 100wh;
+	height: 90vh;
+	color: #fff;
+	background: linear-gradient(-45deg, #99235c, #df4d19, #a43737, #572121);
+	background-size: 400% 400%;
+	-webkit-animation: Gradient 15s ease infinite;
+	-moz-animation: Gradient 15s ease infinite;
+	animation: Gradient 15s ease infinite;
+	font-family: 'Squada One', cursive;
+	font-size: 20px;
 }
 .fifthPage {
   width: 100wh;
 	height: 90vh;
 	color: #fff;
-	background: linear-gradient(-45deg, #282c34, #E73C7E, #23A6D5, #EE7752);
+	background: linear-gradient(-45deg, #022c43, #053f5e, #115173, #ffd700);
 	background-size: 400% 400%;
 	-webkit-animation: Gradient 15s ease infinite;
 	-moz-animation: Gradient 15s ease infinite;
 	animation: Gradient 15s ease infinite;
+	font-family: 'Squada One', cursive;
+	font-size: 20px;	
 }
 .sixthPage {
   width: 100wh;
 	height: 90vh;
 	color: #fff;
-	background: linear-gradient(-45deg, #e3c4a8, #4592af, #226089, #000000);
+	background: linear-gradient(-45deg, #000000, #3e432e, #616f39, #a7d129);
 	background-size: 400% 400%;
 	-webkit-animation: Gradient 15s ease infinite;
 	-moz-animation: Gradient 15s ease infinite;
@@ -83,4 +104,5 @@
 		background-position: 0% 50%
 	}
 }
+
 

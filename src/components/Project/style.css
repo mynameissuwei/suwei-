@@ -5,6 +5,7 @@
 .Wrapper {
   width:276px;
   height: 400px;
+  color: black;
   background: linear-gradient(180deg,#fff,#f0f0f0);
   border-radius: 6px;
   box-shadow: 0 5px 10px rgba(0,0,0,.1);
