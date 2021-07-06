@@ -80,7 +80,7 @@ class Avator extends React.Component {
           <AvatorMe>
             <p>我叫苏伟</p>
             <p>一名前端研发工程师</p>
-            <p>910933955@qq.com</p>
+            <p>suwei1996728@gmail.com</p>
           </AvatorMe>
         </Wrapper>
         <ParticlesContainer />

@@ -1,11 +1,10 @@
 import React from 'react'
-
-import Boss from '../../static/Boss.jpg'
-import Leetcode from '../../static/leetcode.jpg'
-import Weixin from '../../static/weixin.jpg'
 import Lodash from '../../static/Lodash.jpg'
 import Github from '../../static/github.png'
 import Link from '../../static/w_link.svg'
+import SDWAN from '../../static/SDWAN.webp'
+import SDN from '../../static/SDN.webp'
+import LEETCODE from '../../static/leetcode.webp'
 
 import Particles from 'react-particles-js';
 
@@ -84,31 +83,31 @@ class Project extends React.Component {
         <h1 className='title'>项目经历</h1>
         <div className='ProjectWrapper'>
           <div className='Wrapper'>
-            <img src={Boss} alt="" className='pic'/>
-            <p>一个类似BOSS直聘的求职网站,2种身份转换BOSS和牛人,可在线聊天。前端使用 React 开发，
-              后端使用 Express 和 Mongodb 搭建，用户首次访问即把cookie保存在网站中。</p>
-            <div className='tool'>
+            <img src={SDWAN} alt="" className='pic'/>
+            <p>SD-WAN是通过互联网接入组建VPN网络，
+              通过ipsec接入公司 的接入网关，提供租户隔离、限速等功能，
+              网关之间使用高质量的专线线路来实现低时延、高可靠的VPN网络</p>
+            {/* <div className='tool'>
               <a href="suwei.life:8090" className='link'>
                 <img src={Link} alt=""></img>
               </a>
               <a href='https://github.com/mynameissuwei/work' className='link'>
                 <img src={Github} alt=""/>
               </a>
-            </div>
+            </div> */}
           </div>
           <div className='Wrapper'>
-            <img src={Weixin} alt="" className='pic'/>
-            <p>微信小程序(已上线),一款介绍图书
-            和电影的微信小程序,用户可搜索喜欢的书籍和电影,前端使用微信小程序技术开发,
-            后端则通过网络上的API请求返回去数据。(搜索suwei即可查询)</p>
-            <div className='tool'>
+            <img src={SDN} alt="" className='pic'/>
+            <p>该平台是基于ODL开发的SDN业务平台，通过openflow管理交换机实现DCI业务的开通和路径切换。
+              整个平台作为一套 产品提供给线路服务商，公司提供软件的需求开发和交换机的技术支持服务</p>
+            {/* <div className='tool'>
               <a href='https://github.com/mynameissuwei/life-miniProgram' className='link'>
                 <img src={Github} alt=""/>
               </a>
-            </div>
+            </div> */}
           </div>
           <div className='Wrapper'>
-            <img src={Leetcode} alt="" className='pic'/>
+            <img src={LEETCODE} alt="" className='pic'/>
             <p>为了提升自己的JS基础功,培养自己的编程思维和算法能力,
               我通过刷Leetcode来进行训练,目前已经通过197题,通过刷Leetcode让我对后端数据
               的处理得到了提升，我的编程思维也日渐逻辑化.</p>

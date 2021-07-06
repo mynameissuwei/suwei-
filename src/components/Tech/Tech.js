@@ -2,6 +2,12 @@ import React from 'react'
 import { Card } from './styles'
 import Logo from '../../static/logo.svg'
 import Vue from '../../static/Vue.png'
+
+import JAVASCRIPT from '../../static/js.webp'
+import HTML from '../../static/html.webp'
+import CSS from '../../static/cssPicture.webp'
+import NODE from '../../static/nodePic.webp'
+
 import Particles from 'react-particles-js';
 
 import './style.css'
@@ -54,20 +60,20 @@ const ParticlesContainer = (props) => (
 class Tech extends React.Component {
   render() {
     const data = [
-      {url:'https://cdn.ijason.cc/static/images/logos/html.png',
+      {url:HTML,
        color:'white',
        id:'1'
       },
-      {url:'https://cdn.ijason.cc/static/images/logos/css.png',
-       color:'red',
+      {url:CSS,
+       color:'white',
        id:'2'  
       },
-      {url:'https://cdn.ijason.cc/static/images/logos/javascript.png',
-      color:'yellow',
+      {url:JAVASCRIPT,
+      color:'black',
       id:'3'
       },
-      {url:'https://cdn.ijason.cc/static/images/logos/nodejs.png',
-      color:'green',
+      {url:NODE,
+      color:'white',
       id:'4'},
       {url:Logo,
        color:'pink',
@@ -79,7 +85,7 @@ class Tech extends React.Component {
 
     return (
       <div className="tech">
-        <h1>技能栈</h1>
+        <h1>技术栈</h1>
         <div className='pageBody'>
           {data.map((item,index) => 
             <Card key={item.id} style={{backgroundColor:item.color}}>

@@ -39,6 +39,7 @@ const App = () => (
   //   }}
   // />
   <ReactFullpage
+    scrollingSpeed = {1000}
     render={({ state, fullpageApi }) => {
       return (
         <ReactFullpage.Wrapper>
